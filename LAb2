@@ -1,0 +1,85 @@
+import pandas as pd
+
+df = pd.read_csv("student_data.csv")
+#task a
+# first five records
+print("\nFirst five records:")
+print(df.head())
+
+#last five records
+print("\nLast five records:")
+print(df.tail())
+
+print("\nNumber of rows and columns:")
+print(df.shape)
+
+print("\nColumn Names:")
+print(df.columns)
+
+print("\nData type of column :")
+print(df.dtypes)
+
+print("\nData information:")
+print(df.info())
+
+#task b 
+print("\nMean of attendance:")
+print(df["Attendance"].mean())
+
+print("\nAverage internal marks :")
+print(df["InternalMarks"].mean())
+
+print("\nAverage external marks:")
+print(df["ExternalMarks"].mean())
+
+print("\nMaximum Internal Marks:")
+print(df["InternalMarks"].max())
+
+print("\nMinimum Internal Marks:")
+print(df["InternalMarks"].min())
+
+print("\nMaximum External Marks:")
+print(df["ExternalMarks"].max())
+
+print("\nMinimum External Marks:")
+print(df["ExternalMarks"].min())
+
+print("\nStandard deviation of Internal marks:")
+print(df["InternalMarks"].std())
+
+print("\nSummary of statistics:")
+print(df.describe())
+
+#task c
+#create totalmarks as sum of internal and external marks
+df["TotalMarks"] = df["InternalMarks"] + df["ExternalMarks"]
+
+
+# create a new column percentage where (totalmarks/100)*100
+df["Percentage"] = (df["TotalMarks"]/100)*100
+print(df)
+
+# task d
+print("\nStudent whose attendance > 90 :")S
+print(df.loc[(df["Attendance"] >90),'Name'])
+
+print("\nStudents whose TotalMarks > 90 :")
+print(df.loc[(df["TotalMarks"] > 90),'Name'])
+
+print("\nDetails of Female Students :")
+print(df.loc[(df["Gender"] == "F")])
+
+print("\nDetails of Male Students :")
+print(df.loc[(df["Gender"] == "M")])
+
+print("\nStudent less than 50 in External marks:")
+print(df.loc[(df["ExternalMarks"] < 50),'Name'])
+
+#task e
+
+print("\nStudent with highest mark:")
+print(df.loc[(df["TotalMarks"]==df["TotalMarks"].max()),'Name'])
+
+print("\nStudent with lowest marks:")
+print(df.loc[(df["TotalMarks"]==df["TotalMarks"].min()),'Name'])
+
