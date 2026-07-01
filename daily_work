@@ -1,0 +1,52 @@
+Thank you for the reality check. Knowing you have exactly 3 months (90 days) before internship drives start completely changes the strategy.
+
+First, take a deep breath. Being a 3rd-year CSE student means you aren't actually starting from absolute zero. You know what a loop is, you’ve seen code, and you understand basic computer science concepts, even if you feel rusty.
+
+We don't have time for a scenic academic tour. We need a 90-Day Emergency Triage Plan to get you a resume that gets past recruiters, while giving you just enough DSA/Aptitude confidence to pass the initial online screening tests.
+
+Here is your exact weekly battle plan.
+
+📅 The 90-Day Emergency Triage Plan
+You will split your daily time 50/50: 2 hours on Projects/ML and 2 hours on Placement Prep (DSA/Aptitude).
+
+Weeks 1–4: The Quick-Win Project & DSA Basics
+Do not try to build the Advanced GenAI or Fraud system yet. You need a project on your resume now to stop the panic.
+
+The Project (Data Analytics / ML): Build a Predictive Customer Churn or Sales Forecasting project.
+
+Why? It uses clean tabular data, uses libraries like pandas and scikit-learn (which are easy to pick up), and looks highly professional.
+
+Shortcut: Follow a complete end-to-end guided project on YouTube or Kaggle. Do not try to write it from scratch. Copy, understand, tweak the features, and document it.
+
+DSA/Aptitude:
+
+Spend 1 hour a day on Aptitude (Quantitative & Logical Reasoning) using sites like IndiaBIX. Companies use these to filter out 60% of students in the first round.
+
+Spend 1 hour on Basic DSA (Arrays, Strings, and Hashing) on LeetCode or GeeksforGeeks. Master the easy-level problems first.
+
+Weeks 5–8: The "Heavy Hitter" Project & Core DSA
+Now that you have one project and basic coding confidence, you build the project that makes you stand out from your peers.
+
+The Project (GenAI / RAG System): Build the LLM-Powered RAG System (Project 3 from our earlier list).
+
+Why? In 2026, companies are desperate for GenAI skills. It relies heavily on APIs (like OpenAI or open-source models) and frameworks like LangChain, meaning it requires less heavy math and more system plumbing. It looks incredibly high-tech on a 3rd-year resume.
+
+DSA/Aptitude: Move to medium-level Array/String problems, and learn basic Searching & Sorting algorithms (Binary Search, Quick Sort). Keep practicing aptitude.
+
+Weeks 9–12: Deployment & Interview Prep
+A project on your computer is invisible. A project with a live link gets you hired.
+
+The Project: Take your RAG system or Churn model and host it using Streamlit (a Python library that lets you build a UI in 10 lines of code) and deploy it free on Streamlit Community Cloud or Hugging Face Spaces. Put that live URL right next to the project title on your resume.
+
+Interview Prep: Practice explaining your projects using the STAR format (Situation, Task, Action, Result). Review common SQL queries and Object-Oriented Programming (OOPs) concepts—interviewers love asking 3rd years about these.
+
+🛠️ Your Action Item for TODAY
+Stop looking at the 3-month horizon. Today, you have only two tasks:
+
+Create an account on LeetCode (if you haven't) and solve just one "Easy" problem on Arrays.
+
+Open Google Colab, search for a "Customer Churn prediction using Python" tutorial, and just read through the data loading steps.
+
+You can absolutely turn this around in 3 months. Many students start exactly where you are right now and land great internships through sheer, targeted focus.
+
+Which of those two daily tasks are you going to tackle first today?
